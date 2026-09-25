@@ -1,0 +1,41 @@
+@reference "../../app/globals.css";
+
+.form {
+  @apply flex flex-col gap-4 mx-auto w-full max-w-sm mt-6;
+}
+
+.field {
+  @apply flex flex-col gap-1;
+}
+
+.label {
+  @apply text-sm font-semibold text-body;
+}
+
+.input {
+  @apply w-full px-3 py-2 rounded-md bg-lighter text-heading border border-transparent outline-none;
+}
+.input:focus {
+  @apply border-primary;
+}
+
+.passwordField {
+  @apply relative;
+}
+
+.toggle {
+  @apply absolute right-2 top-1/2 -translate-y-1/2 p-1 text-body bg-transparent cursor-pointer;
+}
+.toggle:hover {
+  @apply text-heading;
+}
+
+.switchPrompt {
+  @apply text-sm text-center text-body mt-2;
+}
+.switchPrompt a {
+  @apply text-primary font-semibold;
+}
+.switchPrompt a:hover {
+  @apply text-secondary;
+}
