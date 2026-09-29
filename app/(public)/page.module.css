@@ -1,0 +1,53 @@
+@reference "../../app/globals.css";
+
+.splash {
+  @apply mx-auto max-w-6xl px-6;
+}
+
+.hero {
+  @apply flex flex-col items-center justify-center gap-5 py-24 text-center;
+}
+.hero h1 {
+  @apply text-6xl font-bold tracking-tight;
+}
+.hero h1 svg {
+  width: 0.8em;
+  height: 0.8em;
+  vertical-align: baseline;
+}
+
+.tagline {
+  @apply text-2xl font-semibold text-primary;
+}
+
+.lede {
+  @apply max-w-xl text-lg;
+}
+
+.cta {
+  @apply mt-4 px-8 py-3 text-lg;
+}
+
+.loginPrompt {
+  @apply mt-2 text-sm;
+}
+.loginPrompt a {
+  @apply font-semibold text-primary;
+}
+.loginPrompt a:hover {
+  @apply text-secondary;
+}
+
+.features {
+  @apply grid grid-cols-1 gap-6 pb-24 md:grid-cols-3;
+}
+
+.feature {
+  @apply flex flex-col gap-3 rounded-xl bg-lighter p-6;
+}
+.feature svg {
+  @apply text-primary;
+}
+.feature h2 {
+  @apply text-xl font-semibold;
+}

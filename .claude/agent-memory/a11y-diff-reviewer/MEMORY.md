@@ -1,0 +1,1 @@
+- [Project Codebase Patterns](project-codebase-patterns.md) — A11y patterns, anti-patterns, and component conventions observed across reviews (icons, landmarks, headings, splash page)
