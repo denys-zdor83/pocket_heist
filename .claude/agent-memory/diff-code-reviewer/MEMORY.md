@@ -1,0 +1,3 @@
+- [Project Conventions](project_conventions.md) — confirmed repo-wide coding rules from CLAUDE.md and observed diffs (no-semicolons, CSS Module patterns, component structure, .btn reuse)
+- [Globals CSS Tokens & Helpers](project_globals_css.md) — theme tokens, global helpers (.btn, .page-content etc.), and collision-prone selectors (.public h1, svg.logo)
+- [Anti-patterns Observed](antipatterns_observed.md) — recurring issues: .btn re-implementation as .cta, .public h1 overrides, svg.logo redundancy
